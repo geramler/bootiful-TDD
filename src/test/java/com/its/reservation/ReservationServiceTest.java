@@ -5,8 +5,6 @@ package com.its.reservation;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import java.nio.file.attribute.UserPrincipalNotFoundException;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
