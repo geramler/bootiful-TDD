@@ -50,7 +50,6 @@ public class ReservationServiceTest {
 	@Test(expected = ReservationNotFoundException.class)
 	public void getReservationDetails_whenNotFound() {
 		BDDMockito.given(reservationRepository.findByFirstName("Dhaval")).willReturn(null);
-		Reservation aReservation = reservationService.getReservationDetails("Dhaval");
 	}
 
 }
